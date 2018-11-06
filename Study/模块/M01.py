@@ -9,4 +9,4 @@ class Student():
 def sayHello():
     print("Hello World")
 
-print("这是一个模块")
+print("这是一个模块") #最好不要,导入时会执行
