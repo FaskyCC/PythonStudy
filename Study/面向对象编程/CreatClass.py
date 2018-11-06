@@ -6,9 +6,9 @@ class PythonStudent():
     def doHomework(self):
         print("我在做作业呢")
         return None
-CC = PythonStudent()
-CC.name = "CC"
-print(CC.name)
-print(CC.age)
-print(CC.course)
-CC.doHomework()
+stu = PythonStudent()
+stu.name = "菠萝"
+print(stu.name)
+print(stu.age)
+print(stu.course)
+stu.doHomework()
