@@ -1,4 +1,5 @@
 #创建一个模块,包含一个类,一个函数,一个输出语句
+
 class Student():
     def __init__(self,name = "No",age = 0):
         self.name = name
@@ -9,5 +10,5 @@ class Student():
 def sayHello():
     print("Hello World")
 
-if __name__ == '__main__':
-    print("这是一个模块") #最好不要,导入时会执行
+
+print("这是一个模块") #最好不要,导入时会执行
