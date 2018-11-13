@@ -1,5 +1,4 @@
 #与日历有关的模块
-"""
 import calendar
 
 #calendar:获取一年的日历字符串
@@ -103,7 +102,7 @@ s = '''def doIt(num):
 '''
 t = timeit.timeit("doIt(num)", setup=s+"num=3", number=10)
 print(t)
-"""
+
 #random随机模块 伪随机
 import random
 #random产生0-1之间的随机数
