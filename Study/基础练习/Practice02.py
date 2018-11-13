@@ -11,3 +11,6 @@ for num in range(1,5):
     c = num
     b = 11
     draw(num)
+
+import os
+print(os.name)
